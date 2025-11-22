@@ -1,11 +1,13 @@
 import React from "react";
-import { Button, StyleSheet, Text, View } from "react-native";
+import { Button, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 const BottomUI = () => {
   return (
     <View>
       <Text>Hello world</Text>
-      <Button title="Press Me" />
+      <TouchableOpacity>
+        <Button title="Press Me" />
+      </TouchableOpacity>
     </View>
   );
 };
